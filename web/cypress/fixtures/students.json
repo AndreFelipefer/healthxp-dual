@@ -1,0 +1,30 @@
+{
+    "create": {
+        "name": "Latisha",
+        "email": "La.tisha@email.com",
+        "age": "19",
+        "weight": "75",
+        "feet_tall": "1.75"
+    },
+    "duplicate": {
+        "name": "Shanipua",
+        "email": "Shanipua@email.com",
+        "age": "19",
+        "weight": "75",
+        "feet_tall": "1.75"
+    },
+    "remove": {
+        "name": "Kendra Delet",
+        "email": "Kendra@email.com",
+        "age": "19",
+        "weight": "75",
+        "feet_tall": "1.75"
+    },
+    "required": {
+        "name": "",
+        "email": "",
+        "age": "",
+        "weight": "",
+        "feet_tall": ""
+    }
+}

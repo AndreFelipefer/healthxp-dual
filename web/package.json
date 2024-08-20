@@ -1,0 +1,19 @@
+{
+  "name": "healthxp-web",
+  "version": "1.0.0",
+  "description": "Projeto de automaçõ de testes E2E em Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "healthxp",
+    "e2e"
+  ],
+  "author": "André Felipe",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.13.3"
+  }
+}
