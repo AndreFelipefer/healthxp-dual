@@ -1,8 +1,16 @@
 class NavBar {
-    userLoggedIn(name) {  // Corrigi o nome do método para "userLoggedIn" para refletir melhor sua funcionalidade
-      cy.contains(".logged-user", `Olá, ${name}`).should("be.visible"); 
-    }
+  userLoggedIn(name) {
+    // Corrigi o nome do método para "userLoggedIn" para refletir melhor sua funcionalidade
+    cy.contains(".logged-user", `Olá, ${name}`).should("be.visible");
   }
-  
-  export default new NavBar(); // Exporta uma instância da classe NavBar
-  
+
+  goToEnrolls() {
+    cy.get('a[href="/enrollments"]').click();
+  }
+
+  goToForm() {
+    cy.get('a[href="/enrollments/new"]').click();
+  }
+}
+
+export default new NavBar(); // Exporta uma instância da classe NavBar

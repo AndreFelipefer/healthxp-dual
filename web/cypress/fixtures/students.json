@@ -26,5 +26,40 @@
         "age": "",
         "weight": "",
         "feet_tall": ""
+    },
+    "inval_AgeUnder16": {
+        "name": "Mickey Mouse",
+        "email": "mickey@email.com",
+        "age": "15",
+        "weight": "50",
+        "feet_tall": "1.50"
+    },
+    "inv_AgeOver90": {
+        "name": "Eustacio",
+        "email": "eustacio@email.com",
+        "age": "101",
+        "weight": "91",
+        "feet_tall": "1.75"
+    },
+    "inv_feet_tall": {
+        "name": "Martin",
+        "email": "martin123@email.com",
+        "age": "32",
+        "weight": "39",
+        "feet_tall": "0"
+    },
+    "inv_negativeWeight": {
+        "name": "Goku",
+        "email": "eustacio@email.com",
+        "age": "16",
+        "weight": "-55",
+        "feet_tall": "1.75"
+    },
+    "inv_negativeFeet_tall": {
+        "name": "Naruto",
+        "email": "eustacio@email.com",
+        "age": "16",
+        "weight": "-55",
+        "feet_tall": "-1.75"
     }
 }
