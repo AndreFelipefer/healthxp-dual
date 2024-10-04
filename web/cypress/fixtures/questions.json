@@ -1,0 +1,34 @@
+{
+  "notification": {
+    "student": {
+      "name": "Fernando Papito",
+      "email": "fernando@yahoo.com",
+      "age": "28",
+      "weight": "72",
+      "feet_tall": "1.80"
+    },
+    "plan": {
+      "id": 2,
+      "name": "Premium",
+      "price": 99.99
+    },
+    "question": "Qual o melhor termogênico?"
+  },
+  "teacher_answer": {
+    "student": {
+      "name": "Jorge Benjor",
+      "email": "benjorge@yahoo.com",
+      "age": "28",
+      "weight": "72",
+      "feet_tall": "1.80"
+    },
+    "plan": {
+      "id": 2,
+      "name": "Premium",
+      "price": 99.99
+    },
+    "question": "Como ganhar massa magra?",
+    "answer": "Comer bastante proteína."
+  }
+
+}

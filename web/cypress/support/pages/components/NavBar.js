@@ -11,6 +11,12 @@ class NavBar {
   goToForm() {
     cy.get('a[href="/enrollments/new"]').click();
   }
+
+  openNotifications(){
+    cy.get('.notifications  button').click({force:true})
+  }
+
+  
 }
 
 export default new NavBar(); // Exporta uma instância da classe NavBar

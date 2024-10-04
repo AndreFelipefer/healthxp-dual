@@ -67,7 +67,8 @@ module.exports = {
       });
     },
     video: true, // Garante que os vídeos sejam gravados
-    videosFolder: 'cypress/videos', // Personaliza a pasta de saída para os vídeos
+    videosFolder: 'cypress/videos',
+    projectId: "grkj2i", // Personaliza a pasta de saída para os vídeos
     baseUrl: 'http://localhost:3000',
     env: {
       apiHelper: 'http://localhost:5000'

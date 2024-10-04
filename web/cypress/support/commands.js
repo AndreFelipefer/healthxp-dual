@@ -73,17 +73,29 @@ Cypress.Commands.add('resetStudent', (student) =>{
     url: Cypress.env('apiHelper') + '/students',
     method: 'POST',
     body: student
-  }).then(response => [
+  }).then(response => {
     expect(response.status).to.eq(201)
-  ])
+    cy.log(response.body.student_id)
+    Cypress.env('studentId',response.body.student_id)
+  })
 })
 
 Cypress.Commands.add('deleteStudent', (studentEmail) =>{
   cy.request({
     url: Cypress.env('apiHelper') + '/students/' + studentEmail,
     method: 'DELETE',
-  }).then(response => [
+  }).then(response => {
     expect(response.status).to.eq(204)
-  ])
+  })
 })
 
+
+Cypress.Commands.add('createQuestion', (question) => {
+  cy.request({
+    url: `http://localhost:3333/students/${Cypress.env('studentId')}/help-orders`,
+    method: 'POST',
+    body: {question}
+  }).then(response => {
+    expect(response.status).to.eq(201)
+  })
+})

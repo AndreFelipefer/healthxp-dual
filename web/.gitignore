@@ -2,3 +2,4 @@ node_modules
 cypress/downloads
 cypress/videos
 Dicas.txt
+.env
